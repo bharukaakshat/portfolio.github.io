@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/* .img-logo img{
+    width: 34px;
+} */
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  font-weight: 800;
+  padding-right: 2rem;
+}
+html {
+  font-size: 10px;
+}
+.nav-link {
+  margin-top: 0;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.floatingNav {
+  border-radius: 2px;
+  box-shadow: 0px 1px 10px #999;
+}
+/*
+.nav-link.img-logo:hover{background-color: transparent;}
+.nav-link:hover{background-color: #ff7675;} */
+
+/* .main_box{ */
+/* background: linear-gradient(to top,#2d3436,transparent),url("nice.jpg"); */
+/* background: url("nice.jpg"); */
+/* background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 5vh;
+} */
+/* body{
+
+    background: linear-gradient(to top,#2d3436,transparent),url("nice.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+
+li {
+  list-style-type: none;
+}
+.nav-item img {
+  width: 2.4rem;
+}
+.col-md-6 .large {
+  font-size: 2.75rem;
+}
+.col-md-6 .large:after {
+  content: "";
+  height: 2px;
+  width: 23rem;
+  display: inline-block;
+  margin: 1%;
+  background: black;
+}
+.col-md-6 .ex-large {
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+.col-md-6 .small {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn-bordered {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.9rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  text-transform: uppercase;
+  border: 1px solid #4458dc;
+  box-shadow: 12px 13px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.second .head {
+  font-size: 3.5rem;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.second-banner .container {
+  max-width: 1126px !important;
+}
+.second-banner img {
+  width: 79%;
+}
+
+/* utils */
+html .btn.btn-lined {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  padding: 0.9rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  text-transform: uppercase;
+  border: 0px solid;
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  box-shadow: 12px 13px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.btn.btn-lined:hover,
+.btn-bordered:hover {
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px rgba(128, 144, 196, 0.4);
+}
+.container {
+  max-width: 915px;
+}
+
+/* Media Queries */
+@media (max-width: 769px) {
+  .container {
+    max-width: 350px;
+  }
+}
